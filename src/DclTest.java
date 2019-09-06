@@ -1,5 +1,5 @@
 /**
- * 懒汉式模式上加入双重检测和
+ * 懒汉式模式上加入双重检测和volatile(防止指令重排导致其他线程能访问到未初始化的对象)
  */
 public class DclTest {
     public static void main(String[] args) {
